@@ -2,9 +2,9 @@ name: Build TraderMind Desktop (.exe)
 
 on:
   push:
-    branches: [main]
+    branches: [m]
   pull_request:
-    branches: [main]
+    branches: [m]
   workflow_dispatch:
 
 jobs:
